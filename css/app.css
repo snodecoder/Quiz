@@ -41,7 +41,7 @@ h3 {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,15 @@ h3 {
 
 .hidden {
     display: none;
+}
+
+/* QUESTION */
+.question {
+  font-size: 1.8rem;
+  text-align: left;
+}
+.image {
+  max-width: 50%;
 }
 
 /* BUTTONS */

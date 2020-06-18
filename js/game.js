@@ -1,10 +1,12 @@
 const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName('choice-text'));
+const images = document.getElementById("images");
+const explanation = document.getElementById("explanation");
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -14,37 +16,31 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple").then(res => {
+fetch("http://localhost:5500/70-742.json").then(res => {
     return res.json();
 
-}).then(loadedQuestions => {
-    console.log(loadedQuestions.results);
-    questions = loadedQuestions.results.map(loadedQuestion => {
-        const formattedQuestion = {
-            question: loadedQuestion.question
-        };
+}).then(loadedExam => {
+    console.log(loadedExam);
 
-        const answerChoices = [...loadedQuestion.incorrect_answers];
-        formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
-        answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
-
-        answerChoices.forEach((choice, index) => {
-            formattedQuestion["choice" + (index + 1)] = choice;
-        })
-
-        return formattedQuestion;
-    });
-
-
-
+    questions = loadedExam.test.map(loadedQuestion => {
+      const formattedQuestion = {
+          variant: loadedQuestion.variant  
+          ,question: loadedQuestion.question
+          ,choices: loadedQuestion.choices
+          ,answer: loadedQuestion.answer
+          ,explanation: loadedQuestion.explanation
+      };
+      return formattedQuestion;
+    })
+    
     startGame();
 }).catch(err => {
     console.log(err);
 });
 
 // Constants
-const Correct_Bonus = 10;
-const Max_Questions = 5;
+const Correct_Bonus = 1;
+const Max_Questions = 50;
 
 startGame = () => {
     questionCounter = 0;
@@ -66,25 +62,76 @@ getNewQuestion = () => {
 
     questionCounter++;
 
-    progressText.innerText = `Question ${questionCounter}/${Max_Questions}`;
-
     //Update the progress Bar
-
+    progressText.innerText = `Question ${questionCounter}/${Max_Questions}`;
     progressBarFull.style.width = ` ${(questionCounter / Max_Questions) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    question.innerHTML = currentQuestion.question;
 
+    // Map content of question to HTML structure
+    currentQuestion.question.forEach(questionPart => {
+      if (questionPart.variant == 1) { // if Text 
+        question.insertAdjacentHTML("beforeend", "<p class='question'>" + questionPart.text + "</p>")
+      }
+      else if (questionPart.variant == 0) { // if Images
+        question.insertAdjacentHTML("beforeend", "<img class='image' src='" + questionPart.text + "'>")
+      }
+    });
+
+    // Map content of available question choices to HTML structure
+    currentQuestion.choices.forEach(choice => {
+      question.insertAdjacentHTML("beforeend", `<div class="choice-container"><p class="choice-prefix">${choice.label}</p><p class="choice-text"  data-number="${currentQuestion.choices.indexOf(choice)}">${choice.Text}</p></div>`
+      )
+    })
+    acceptingAnswers = true;
+
+/*
     choices.forEach(choice => {
         const number = choice.dataset["number"];
         choice.innerHTML = currentQuestion["choice" + number];
     });
 
     availableQuestions.splice(questionIndex, 1);
-    acceptingAnswers = true;
+    
+    */
 };
+document.addEventListener('click', function(e){
+  if (e.target && e.target.classList == 'choice-text'){
+    if (!acceptingAnswers) return;
 
+      acceptingAnswers = false;
+      const selectedChoice = e.target;
+      const selectedAnswer = selectedChoice.dataset["number"];
+
+      var correctAnswers = currentQuestion.answer.forEach(option => {
+        if (option == true) {
+          currentQuestion.answer.findIndex(option)
+        }
+      })
+      console.log(correctAnswers);
+      //currentQuestion.answer.forEach(option => { 
+      if (currentQuestion.answer[selectedAnswer] == true) {
+        const classToApply = 'correct'
+      }
+      //const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+      if (classToApply === "correct") {
+          incrementScore(Correct_Bonus);
+      }
+
+      selectedChoice.parentElement.classList.add(classToApply);
+
+      setTimeout(() => {
+          selectedChoice.parentElement.classList.remove(classToApply);
+          getNewQuestion();
+      }, 1000);
+  }
+})
+
+
+
+var choices = Array.from(document.getElementsByClassName('choice-text'));
 choices.forEach(choice => {
     choice.addEventListener("click", e => {
         if (!acceptingAnswers) return;
