@@ -86,51 +86,48 @@ getNewQuestion = () => {
     })
     acceptingAnswers = true;
 
-/*
-    choices.forEach(choice => {
-        const number = choice.dataset["number"];
-        choice.innerHTML = currentQuestion["choice" + number];
-    });
 
-    availableQuestions.splice(questionIndex, 1);
-    
-    */
 };
-document.addEventListener('click', function(e){
-  if (e.target && e.target.classList == 'choice-text'){
-    if (!acceptingAnswers) return;
 
-      acceptingAnswers = false;
-      const selectedChoice = e.target;
-      const selectedAnswer = selectedChoice.dataset["number"];
+resetListener = () => {
 
-      var correctAnswers = currentQuestion.answer.forEach(option => {
-        if (option == true) {
-          currentQuestion.answer.findIndex(option)
+  var correctAnswers = []
+  document.addEventListener('click', function(e){
+    if (e.target && e.target.classList == 'choice-text'){
+      if (!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
+
+        
+        for($i = 0; $i < currentQuestion.answer.length; $i++) {
+          if (currentQuestion.answer[$i] == true) {
+            correctAnswers += $i
+          }
         }
-      })
-      console.log(correctAnswers);
-      //currentQuestion.answer.forEach(option => { 
-      if (currentQuestion.answer[selectedAnswer] == true) {
-        const classToApply = 'correct'
-      }
-      //const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        
+        //currentQuestion.answer.forEach(option => { 
+        if (currentQuestion.answer[selectedAnswer] == true) {
+          const classToApply = 'correct'
+        }
+        //const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-      if (classToApply === "correct") {
-          incrementScore(Correct_Bonus);
-      }
+        if (classToApply === "correct") {
+            incrementScore(Correct_Bonus);
+        }
 
-      selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.add(classToApply);
+  /*
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);*/
+    }
+  })
+}
 
-      setTimeout(() => {
-          selectedChoice.parentElement.classList.remove(classToApply);
-          getNewQuestion();
-      }, 1000);
-  }
-})
-
-
-
+/*
 var choices = Array.from(document.getElementsByClassName('choice-text'));
 choices.forEach(choice => {
     choice.addEventListener("click", e => {
@@ -162,3 +159,4 @@ incrementScore = num => {
 
 }
 
+*/
