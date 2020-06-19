@@ -1,10 +1,11 @@
 const question = document.getElementById('question');
-const choices = document.getElementById('choices');
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
+const hud = document.getElementById('hud');
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -13,13 +14,14 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
+let exam = [];
 
 fetch("http://127.0.0.1:5500/70-742.json").then(res => {
     return res.json();
 
 }).then(loadedExam => {
-    console.log(loadedExam);
-
+    console.log("Exam loaded");
+    exam = loadedExam
     questions = loadedExam.test.map(loadedQuestion => {
       const formattedQuestion = {
           variant: loadedQuestion.variant  
@@ -38,7 +40,7 @@ fetch("http://127.0.0.1:5500/70-742.json").then(res => {
 
 // Constants
 const Correct_Bonus = 1;
-const Max_Questions = 50;
+const Max_Questions = 2;
 
 // HTML template literals
 addText = (text) => {
@@ -59,14 +61,9 @@ startGame = () => {
     //loader
     game.classList.remove('hidden');
     loader.classList.add("hidden");
+    hud.insertAdjacentHTML("beforebegin", `<h2 class="title">${exam.title}</h2>`)
 };
 
-
-
-incrementScore = num => {
-  score += num;
-  scoreText.innerText = score;
-}
 
 
 
@@ -99,6 +96,18 @@ getNewQuestion = () => {
         htmlMarkup += `<img class="image" src="${questionPart.text}">`
       }
     });
+    // Insert statement about type of question, and type of required answers.
+    switch (currentQuestion.variant) {
+      case 0:
+        htmlMarkup += `<h4 class="question">Choose the correct answer.</h4>`
+        break;
+      case 1: 
+        htmlMarkup += `<h4 class="question">Choose all the answers that are correct.</h4>`
+        break;
+      default:
+        break;
+    }
+    
     // Map content of available question choices to HTML structure
     currentQuestion.choices.forEach(choice => {
       htmlMarkup += addChoice(choice)
@@ -107,20 +116,16 @@ getNewQuestion = () => {
     // Add submit button
     htmlMarkup += `<div id="submit"><p id="submit_btn" class="btn">Submit</p></div>`
     question.innerHTML = htmlMarkup;
-    acceptingAnswers = true;
-   
-    
+    acceptingAnswers = true;  
 };
 
-
 document.addEventListener('click', function(e) {
-  const chosenClass = "chosen"
+  const chosenClass = "chosen";
+
     if (e.target && e.target.classList == 'choice-text'){ // User chooses answer     
       if (!acceptingAnswers) return;
-
       
       const selectedChoice = e.target;
-      const selectedAnswer = selectedChoice.dataset["number"];
       const hasClass = selectedChoice.parentElement.classList.contains(chosenClass);
 
       // Remove ClassToApply when clicked again
@@ -139,51 +144,47 @@ document.addEventListener('click', function(e) {
               results[$i].classList.remove(chosenClass);
             }
           }
-          selectedChoice.parentElement.classList.add(chosenClass);
         }
+        selectedChoice.parentElement.classList.add(chosenClass);
       }
     }
     else if (e.target && e.target.id == 'submit_btn') { // User submits answers
       
-      var givenAnswers = []
-      const results = question.getElementsByClassName(chosenClass); // get the chosen User answers 
+      var classToApply = new String
+      var results = question.getElementsByClassName(chosenClass); // get the chosen User answers 
 
       // If multiple choice (single answer)
       if (currentQuestion.variant == 0) { 
-        givenAnswers += results[0].childNodes[1].dataset.number
+        const answer = results[0].childNodes[1].dataset.number
         
         // Check answer
-        if (currentQuestion.answer[givenAnswers[0]] == true) {
+        if (currentQuestion.answer[answer] == true) {
           classToApply = 'correct'
           correct = true;
         }
-        else if (currentQuestion.answer[givenAnswers[0]] == false) {
+        else if (currentQuestion.answer[answer] == false) {
           classToApply = 'incorrect'
         }
         results[0].classList.add(classToApply);
-        results[0].classList.remove(chosenClass);
-
       }
 
       // if multiple choice (multiple answer) 
       else if (currentQuestion.variant == 1) {
-        results.forEach(result => {
-          givenAnswers += result.childNodes[1].dataset.number
+        for ($i=0; $i < results.length; $i++) {
+          const answer = results[$i].lastChild.dataset.number
 
-          givenAnswers.forEach(answer => {
             if (currentQuestion.answer[answer] == true) {
-              classToApply = 'correct'
+              classToApply = 'correct';
               correct = true;
             }
             else if (currentQuestion.answer[answer] == false) {
-              classToApply = 'incorrect'
+              classToApply = 'incorrect';
             }
-          })
-          result.classList.add(classToApply)
-          result.classList.remove(chosenClass)
-        });
+            console.log(classToApply)
+          results[$i].classList.add(classToApply);
+        }
       }
-      const incorrect = question.getElementsByClassName('incorrect'); // get the chosen User answers 
+      var incorrect = question.getElementsByClassName('incorrect'); // get the chosen User answers 
 
       if (incorrect.length == 0) {
         incrementScore(Correct_Bonus);
@@ -196,41 +197,12 @@ document.addEventListener('click', function(e) {
     
       setTimeout(() => {
         getNewQuestion();
-      }, 4000);
+      }, 2000);
 
     } // End submit button 
 });
 
-
-
-
-/*
-
-
-choices.forEach(choice => {
-    choice.addEventListener("click", e => {
-        if (!acceptingAnswers) return;
-
-        acceptingAnswers = false;
-        const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset["number"];
-
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
-
-        if (classToApply === "correct") {
-            incrementScore(Correct_Bonus);
-        }
-
-        selectedChoice.parentElement.classList.add(classToApply);
-
-        setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion();
-        }, 1000);
-
-    });
-});
-
-
-
-*/
+incrementScore = num => {
+  score += num;
+  scoreText.innerText = score;
+}

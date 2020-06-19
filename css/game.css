@@ -25,16 +25,16 @@
     width: 100%;
 }
 
+.chosen {
+    background-color: #c7caca;
+}
+
 .correct {
-    background-color: #28a745;
+  background-color: #28a745;
 }
 
 .incorrect{
-    background-color: #dc3545;
-}
-
-.chosen {
-    background-color: #c7caca;
+  background-color: #dc3545;
 }
 
 /* HUD */

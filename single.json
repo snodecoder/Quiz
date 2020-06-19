@@ -1,0 +1,82 @@
+{
+  "title": "Identity with Windows Server 2016",
+  "description": "161 questions available in Multiple Choice en Multiple Answer format.",
+  "author": {
+    "id": "00001",
+    "name": "Snodecoder",
+    "image": "http://www.example.com/image.png"
+  },
+  "createdAt": "2020-06-18T18:08:32.615Z",
+  "code": "70-742",
+  "time": 60,
+  "pass": 75,
+  "image": "http://www.example.com/image.png",
+  "cover": [
+    {
+      "variant": 2,
+      "text": "Identity with Windows Server 2016"
+    },
+    {
+      "variant": 1,
+      "text": "161 questions available in Multiple Choice en Multiple Answer format."
+    }
+  ],
+  "test": [
+    {
+      "variant": 1,
+      "question": [
+        {
+          "variant": 1,
+          "text": "Your network contains an Active Directory domain named contoso.com. The domain contains five domain controllers."
+        },
+        {
+          "variant": 1,
+          "text": "You have a branch office that has a local support technician named Tech1. Tech1 installs Windows Server 2016 on a server named RODC1 in a workgroup."
+        },
+        {
+          "variant": 1,
+          "text": "You need Tech1 to deploy RODC1 as a read-only domain controller (RODC) in the contoso.com domain."
+        },
+        {
+          "variant": 1,
+          "text": "Which three actions should you perform? Each correct answer presents part of the solution."
+        }
+      ],
+      "choices": [
+        {
+          "label": "A",
+          "Text": "Instruct Tech1 to run the Active Directory Domain Services Configuration Wizard."
+        },
+        {
+          "label": "B",
+          "Text": "Create an RODC computer account by using Active Administrative Center."
+        },
+        {
+          "label": "C",
+          "Text": "Instruct Tech1 to run dcpromo.exe on RODC1."
+        },
+        {
+          "label": "D",
+          "Text": "Instruct Tech1 to install the Active Directory Domain Services server role on RODC1."
+        },
+        {
+          "label": "E",
+          "Text": "Modify the permissions of the Domain Controllers organizational unit (OU)."
+        }
+      ],
+      "answer": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "explanation": [
+        {
+          "variant": 1,
+          "text": "Explanation/Reference:"
+        }
+      ]
+    }
+  ]
+}
