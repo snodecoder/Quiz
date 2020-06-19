@@ -61,6 +61,15 @@ startGame = () => {
     loader.classList.add("hidden");
 };
 
+
+
+incrementScore = num => {
+  score += num;
+  scoreText.innerText = score;
+}
+
+
+
 getNewQuestion = () => {
     // go to the new page after the answer all questions
     if (availableQuestions.length === 0 || questionCounter >= Max_Questions) {
@@ -99,109 +108,98 @@ getNewQuestion = () => {
     htmlMarkup += `<div id="submit"><p id="submit_btn" class="btn">Submit</p></div>`
     question.innerHTML = htmlMarkup;
     acceptingAnswers = true;
-    getAnswer()
+   
     
 };
 
 
-
-getAnswer = () => {
-
- 
-  document.addEventListener('click', function(e){
+document.addEventListener('click', function(e) {
+  const chosenClass = "chosen"
     if (e.target && e.target.classList == 'choice-text'){ // User chooses answer     
       if (!acceptingAnswers) return;
 
       
       const selectedChoice = e.target;
       const selectedAnswer = selectedChoice.dataset["number"];
-      const classToApply = "chosen"
-      const hasClass = selectedChoice.parentElement.classList.contains(classToApply);
+      const hasClass = selectedChoice.parentElement.classList.contains(chosenClass);
 
       // Remove ClassToApply when clicked again
       if (hasClass) {
-        selectedChoice.parentElement.classList.remove(classToApply);
+        selectedChoice.parentElement.classList.remove(chosenClass);
       }
       // Add ClassToApply when empty
       else if (!hasClass) {
         
         // If Multiple Choice Single Answer, delete other chosen answer when Class already present
         if (currentQuestion.variant == 0) {
-          const results = question.getElementsByClassName('chosen');
+          const results = question.getElementsByClassName(chosenClass);
 
           if (results) {
             for ($i=0; $i < results.length; $i++) {
-              results[$i].classList.remove(classToApply);
+              results[$i].classList.remove(chosenClass);
             }
           }
-          selectedChoice.parentElement.classList.add(classToApply);
+          selectedChoice.parentElement.classList.add(chosenClass);
         }
-
-        
       }
-  
     }
     else if (e.target && e.target.id == 'submit_btn') { // User submits answers
       
       var givenAnswers = []
-      const results = question.getElementsByClassName('chosen'); // get the chosen User answers 
+      const results = question.getElementsByClassName(chosenClass); // get the chosen User answers 
 
-      if (currentQuestion.variant == 0) { // If multiple choice (single answer)
+      // If multiple choice (single answer)
+      if (currentQuestion.variant == 0) { 
         givenAnswers += results[0].childNodes[1].dataset.number
-        checkAnswer(givenAnswers);
+        
+        // Check answer
+        if (currentQuestion.answer[givenAnswers[0]] == true) {
+          classToApply = 'correct'
+          correct = true;
+        }
+        else if (currentQuestion.answer[givenAnswers[0]] == false) {
+          classToApply = 'incorrect'
+        }
+        results[0].classList.add(classToApply);
+        results[0].classList.remove(chosenClass);
+
       }
 
-      else if (currentQuestion.variant == 1) { // if multiple choice (multiple answer) 
+      // if multiple choice (multiple answer) 
+      else if (currentQuestion.variant == 1) {
         results.forEach(result => {
           givenAnswers += result.childNodes[1].dataset.number
-          checkAnswer(givenAnswers);
+
+          givenAnswers.forEach(answer => {
+            if (currentQuestion.answer[answer] == true) {
+              classToApply = 'correct'
+              correct = true;
+            }
+            else if (currentQuestion.answer[answer] == false) {
+              classToApply = 'incorrect'
+            }
+          })
+          result.classList.add(classToApply)
+          result.classList.remove(chosenClass)
         });
       }
+      const incorrect = question.getElementsByClassName('incorrect'); // get the chosen User answers 
+
+      if (incorrect.length == 0) {
+        incrementScore(Correct_Bonus);
+      }
       
-    }
+      // Show Explanation
+      currentQuestion.explanation.forEach(part => {
+        question.innerHTML += addText(part.text)
+      })
     
-  })
-  document.removeEventListener('click');
-  
-}
+      setTimeout(() => {
+        getNewQuestion();
+      }, 4000);
 
-
-incrementScore = num => {
-  score += num;
-  scoreText.innerText = score;
-}
-
-
-checkAnswer = (givenAnswers) => {
-  var correct = false;
-
-  if (givenAnswers.length == 0) { // Multiple Choice Single Answer
-    if (currentQuestion.answer[givenAnswers[0]] == true) {
-      classToApply = 'correct'
-      correct = true;
-    }
-    else if (currentQuestion.answer[givenAnswers[0]] == false) {
-      classToApply = 'incorrect'
-    }
-
-  }
-  else if (givenAnswers.length > 1) { // Multiple Choice Multiple Answer
-    givenAnswers.forEach(answer => {
-      if (currentQuestion.answer[answer] == true) {
-        classToApply = 'correct'
-        correct = true;
-      }
-      else if (currentQuestion.answer[answer] == false) {
-        classToApply = 'incorrect'
-      }
-    })
-  }
-  if (correct == true) {
-    incrementScore(Correct_Bonus);
-  }
-
-  getNewQuestion();
-};
+    } // End submit button 
+});
 
 
 
