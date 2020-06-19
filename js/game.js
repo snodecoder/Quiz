@@ -16,7 +16,7 @@ let availableQuestions = [];
 let questions = [];
 let exam = [];
 
-fetch("http://127.0.0.1:5500/70-742.json").then(res => {
+fetch("https://start.opensourceexams.org/exams/70-742.json").then(res => {
     return res.json();
 
 }).then(loadedExam => {
