@@ -5,8 +5,8 @@ const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
 const hud = document.getElementById('hud');
-const url_prod = "https://start.opensourceexams.org/exams/70-742.json";
-const url_dev = "http://127.0.0.1:5500/70-742.json";
+const url_prod = 'https://start.opensourceexams.org/exams/70-742.json';
+const url_dev = 'http://127.0.0.1:5500/70-742.json';
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -21,7 +21,7 @@ fetch(url_dev).then(res => {
     return res.json();
 
 }).then(loadedExam => {
-    console.log("Exam loaded");
+    console.log('Exam loaded');
     exam = loadedExam
     questions = loadedExam.test.map(loadedQuestion => {
       const formattedQuestion = {
@@ -62,8 +62,8 @@ startGame = () => {
     getNewQuestion();
     //loader
     game.classList.remove('hidden');
-    loader.classList.add("hidden");
-    hud.insertAdjacentHTML("beforebegin", `<h2 class="title">${exam.title}</h2>`)
+    loader.classList.add('hidden');
+    hud.insertAdjacentHTML('beforebegin', `<h2 class="title">${exam.title}</h2>`)
 };
 
 
@@ -72,13 +72,13 @@ startGame = () => {
 getNewQuestion = () => {
     // go to the new page after the answer all questions
     if (availableQuestions.length === 0 || questionCounter >= Max_Questions) {
-        localStorage.setItem("mostRecentScore", score);
+        localStorage.setItem('mostRecentScore', score);
         // go to the end of page
-        return window.location.assign("end.html")
+        return window.location.assign('end.html')
     }
 
     questionCounter++;
-    var htmlMarkup = ""
+    var htmlMarkup = ''
 
     //Update the progress Bar
     progressText.innerText = `Question ${questionCounter}/${Max_Questions}`;
@@ -90,11 +90,9 @@ getNewQuestion = () => {
     // Map content of question to HTML structure
     currentQuestion.question.forEach(questionPart => {
       if (questionPart.variant == 1) { // if Text
-        //question.insertAdjacentHTML("beforeend", `<p class="question">${questionPart.text}</p>`)
         htmlMarkup += `<p class="question">${questionPart.text}</p>`
       }
       else if (questionPart.variant == 0) { // if Images
-        //question.insertAdjacentHTML("beforeend", `<img class="image" src="${questionPart.text}">`)
         htmlMarkup += `<img class="image" src="${questionPart.text}">`
       }
     });
@@ -122,7 +120,7 @@ getNewQuestion = () => {
 };
 
 document.addEventListener('click', function(e) {
-  const chosenClass = "chosen";
+  const chosenClass = 'chosen';
 
     if (e.target && e.target.classList == 'choice-text'){ // User chooses answer
       if (!acceptingAnswers) return;
