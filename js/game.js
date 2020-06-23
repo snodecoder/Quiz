@@ -5,14 +5,16 @@ const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
+const Max_Questions = sessionStorage.getItem('MaxQuestions'); // Retrieve wanted number of questions
+console.log(Max_Questions);
 
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
 let questions = [];
+
 
 fetch("http://127.0.0.1:5500/70-742.json").then(res => {
     return res.json();
@@ -22,7 +24,7 @@ fetch("http://127.0.0.1:5500/70-742.json").then(res => {
 
     questions = loadedExam.test.map(loadedQuestion => {
       const formattedQuestion = {
-          variant: loadedQuestion.variant  
+          variant: loadedQuestion.variant
           ,question: loadedQuestion.question
           ,choices: loadedQuestion.choices
           ,answer: loadedQuestion.answer
@@ -30,7 +32,7 @@ fetch("http://127.0.0.1:5500/70-742.json").then(res => {
       };
       return formattedQuestion;
     })
-    
+
     startGame();
 }).catch(err => {
     console.log(err);
@@ -38,7 +40,6 @@ fetch("http://127.0.0.1:5500/70-742.json").then(res => {
 
 // Constants
 const Correct_Bonus = 1;
-const Max_Questions = 50;
 
 // HTML template literals
 addText = (text) => {
@@ -77,7 +78,7 @@ getNewQuestion = () => {
         // go to the end of page
         return window.location.assign("end.html")
     }
-   
+
     questionCounter++;
     var htmlMarkup = ""
 
@@ -90,7 +91,7 @@ getNewQuestion = () => {
 
     // Map content of question to HTML structure
     currentQuestion.question.forEach(questionPart => {
-      if (questionPart.variant == 1) { // if Text 
+      if (questionPart.variant == 1) { // if Text
         //question.insertAdjacentHTML("beforeend", `<p class="question">${questionPart.text}</p>`)
         htmlMarkup += `<p class="question">${questionPart.text}</p>`
       }
@@ -108,17 +109,17 @@ getNewQuestion = () => {
     htmlMarkup += `<div id="submit"><p id="submit_btn" class="btn">Submit</p></div>`
     question.innerHTML = htmlMarkup;
     acceptingAnswers = true;
-   
-    
+
+
 };
 
 
 document.addEventListener('click', function(e) {
   const chosenClass = "chosen"
-    if (e.target && e.target.classList == 'choice-text'){ // User chooses answer     
+    if (e.target && e.target.classList == 'choice-text'){ // User chooses answer
       if (!acceptingAnswers) return;
 
-      
+
       const selectedChoice = e.target;
       const selectedAnswer = selectedChoice.dataset["number"];
       const hasClass = selectedChoice.parentElement.classList.contains(chosenClass);
@@ -129,7 +130,7 @@ document.addEventListener('click', function(e) {
       }
       // Add ClassToApply when empty
       else if (!hasClass) {
-        
+
         // If Multiple Choice Single Answer, delete other chosen answer when Class already present
         if (currentQuestion.variant == 0) {
           const results = question.getElementsByClassName(chosenClass);
@@ -144,14 +145,14 @@ document.addEventListener('click', function(e) {
       }
     }
     else if (e.target && e.target.id == 'submit_btn') { // User submits answers
-      
+
       var givenAnswers = []
-      const results = question.getElementsByClassName(chosenClass); // get the chosen User answers 
+      const results = question.getElementsByClassName(chosenClass); // get the chosen User answers
 
       // If multiple choice (single answer)
-      if (currentQuestion.variant == 0) { 
+      if (currentQuestion.variant == 0) {
         givenAnswers += results[0].childNodes[1].dataset.number
-        
+
         // Check answer
         if (currentQuestion.answer[givenAnswers[0]] == true) {
           classToApply = 'correct'
@@ -165,7 +166,7 @@ document.addEventListener('click', function(e) {
 
       }
 
-      // if multiple choice (multiple answer) 
+      // if multiple choice (multiple answer)
       else if (currentQuestion.variant == 1) {
         results.forEach(result => {
           givenAnswers += result.childNodes[1].dataset.number
@@ -183,22 +184,22 @@ document.addEventListener('click', function(e) {
           result.classList.remove(chosenClass)
         });
       }
-      const incorrect = question.getElementsByClassName('incorrect'); // get the chosen User answers 
+      const incorrect = question.getElementsByClassName('incorrect'); // get the chosen User answers
 
       if (incorrect.length == 0) {
         incrementScore(Correct_Bonus);
       }
-      
+
       // Show Explanation
       currentQuestion.explanation.forEach(part => {
         question.innerHTML += addText(part.text)
       })
-    
+
       setTimeout(() => {
         getNewQuestion();
       }, 4000);
 
-    } // End submit button 
+    } // End submit button
 });
 
 
