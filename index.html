@@ -12,10 +12,13 @@
     <div class="container ">
         <div id="home" class="flex-center flex-column">
             <h1>Quick quiz</h1>
-            <a href="game.html" class="btn">Play</a>
+            <form name="maxQuestions" action="game.html" onsubmit="return setMaxQuestions()" method="GET">
+                <p class="default-color">Number of Questions? </p><input class="btn" value="50" type="number" name="nrQuestions">
+                <input type="submit" class="btn" value="Play">
+            </form>
             <a href="highscores.html" class="btn">High Scores</a>
         </div>
     </div>
 </body>
-
+<script src="js/index.js"></script>
 </html>
