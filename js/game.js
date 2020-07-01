@@ -5,7 +5,7 @@ const progressBarFull = document.getElementById('progressBarFull');
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
 const hud = document.getElementById('hud');
-const url_prod = 'https://start.opensourceexams.org/exams/70-742.json';
+const url_prod = 'https://start.opensourceexams.org/exams/70-742/70-742.json';
 const url_dev = 'http://127.0.0.1:5500/70-742.json';
 
 let currentQuestion = {};
@@ -17,6 +17,7 @@ let availableQuestions = [];
 let questions = [];
 let exam = [];
 
+// Change URL HERE //
 fetch(url_prod).then(res => {
     return res.json();
 
