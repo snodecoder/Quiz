@@ -17,7 +17,7 @@ let availableQuestions = [];
 let questions = [];
 let exam = [];
 
-fetch(url_dev).then(res => {
+fetch(url_prod).then(res => {
     return res.json();
 
 }).then(loadedExam => {
@@ -191,9 +191,14 @@ document.addEventListener('click', function(e) {
       }
 
       // Show Explanation
-      currentQuestion.explanation.forEach(part => {
-        question.innerHTML += addText(part.text)
-      })
+			if (currentQuestion.explanation == null) {
+				question.innerHTML += "No explanation present."
+			}
+			else {
+				currentQuestion.explanation.forEach(part => {
+					question.innerHTML += addText(part.text)
+				})
+			}
 
       setTimeout(() => {
         getNewQuestion();
