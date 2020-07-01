@@ -98,11 +98,16 @@ h3 {
 }
 
 /* QUESTION */
-.question {
+.question, .text{
   font-size: 1.8rem;
   text-align: left;
   padding-bottom: 10px;
 }
+
+.text {
+  font-size: 1.2rem;
+}
+
 .image {
   max-width: 50%;
 }

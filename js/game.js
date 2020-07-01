@@ -7,6 +7,7 @@ const game = document.getElementById('game');
 const hud = document.getElementById('hud');
 const url_prod = 'https://start.opensourceexams.org/exams/70-742/70-742.json';
 const url_dev = 'http://127.0.0.1:5500/70-742.json';
+const delayTime = 4000;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -18,7 +19,7 @@ let questions = [];
 let exam = [];
 
 // Change URL HERE //
-fetch(url_prod).then(res => {
+fetch(url_dev).then(res => {
     return res.json();
 
 }).then(loadedExam => {
@@ -47,13 +48,16 @@ console.log(Max_Questions);
 
 // HTML template literals
 addText = (text) => {
-  return `<p class="question">${text}</p>`
+  return `<p class="text">${text}</p>`
 }
 addImage = (url) => {
   return `<img class="image" src="${url}">`
 }
 addChoice = (choice) => {
   return `<div class="choice-container"><p class="choice-prefix">${choice.label}</p><p class="choice-text" data-number="${currentQuestion.choices.indexOf(choice)}">${choice.Text}</p></div>`
+}
+addLink = (url) => {
+  return `<a class="text" target="_blank" rel="noopener" href="${url}">${url}</a>`
 }
 
 startGame = () => {
@@ -150,7 +154,7 @@ document.addEventListener('click', function(e) {
       }
     }
     else if (e.target && e.target.id == 'submit_btn') { // User submits answers
-
+      acceptingAnswers = false
       var classToApply = new String
       var results = question.getElementsByClassName(chosenClass); // get the chosen User answers
 
@@ -193,19 +197,29 @@ document.addEventListener('click', function(e) {
 
       // Show Explanation
 			if (currentQuestion.explanation == null) {
-				question.innerHTML += "No explanation present."
-			}
-			else {
-				currentQuestion.explanation.forEach(part => {
-					question.innerHTML += addText(part.text)
-				})
-			}
+				question.innerHTML += addText("No explanation present.")
+      }
+      else {
+        for (let i = 0; i < currentQuestion.explanation.length; i++) {
+          if (currentQuestion.explanation[i].text.includes('http')) {
+            question.innerHTML += addLink(currentQuestion.explanation[i].text)
+          }
+          else {
+            question.innerHTML += addText(currentQuestion.explanation[i].text)
+          }
+        }
 
-      setTimeout(() => {
-        getNewQuestion();
-      }, 2000);
+      }
 
+      const submitButton = document.getElementById('submit_btn')
+      submitButton.innerHTML = 'Next'
+      submitButton.id = 'next_btn'
     } // End submit button
+    else if (e.target && e.target.id == 'next_btn') { // Next question
+      getNewQuestion();
+    }
+
+
 });
 
 incrementScore = num => {

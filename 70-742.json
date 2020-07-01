@@ -6,9 +6,9 @@
     "name": "Snodecoder",
     "image": "http://www.example.com/image.png"
   },
-  "createdAt": "2020-06-18T18:08:32.615Z",
+  "createdAt": "2020-07-01T22:55:11.002Z",
   "code": "70-742",
-  "time": 60,
+  "time": 120,
   "pass": 75,
   "image": "http://www.example.com/image.png",
   "cover": [
@@ -27,14 +27,6 @@
       "question": [
         {
           "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For you convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
-        {
-          "variant": 1,
-          "text": "Start of repeated scenario."
-        },
-        {
-          "variant": 1,
           "text": "You work for a company named Contoso, Ltd."
         },
         {
@@ -47,7 +39,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image1.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image1.jpg"
         },
         {
           "variant": 1,
@@ -68,10 +60,6 @@
         {
           "variant": 1,
           "text": "An administrator of the adatum.com domain runs the Set-ADUser cmdlet to configure a user named User1 to have a user logon name of User1@litwareinc.com."
-        },
-        {
-          "variant": 1,
-          "text": "End of repeated scenario."
         },
         {
           "variant": 1,
@@ -110,24 +98,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
-        {
-          "variant": 1,
-          "text": "Start of repeated scenario."
-        },
         {
           "variant": 1,
           "text": "You work for a company named Contoso, Ltd."
@@ -142,7 +117,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image2.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image2.jpg"
         },
         {
           "variant": 1,
@@ -206,20 +181,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "A domain local group (group2) can only be a member of another domain local group.  Therefore, we need to change the scope of Group3 from Universal to Domain Local."
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -269,12 +231,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -335,12 +292,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -352,18 +304,6 @@
         {
           "variant": 1,
           "text": "You need to secure several high-privilege user accounts to meet the following requirements:"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
         },
         {
           "variant": 1,
@@ -394,16 +334,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -453,12 +384,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -504,20 +430,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For you convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
         {
           "variant": 1,
           "text": " "
@@ -532,7 +449,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image2.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image2.jpg"
         },
         {
           "variant": 1,
@@ -591,12 +508,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -647,20 +559,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain functional level is Windows Server 2012 R2."
@@ -676,39 +579,39 @@
         {
           "variant": 1,
           "text": "Which tool should you use?"
-        },
-        {
-          "variant": 1,
-          "text": "A. Dsadd quota"
         }
       ],
       "choices": [
         {
           "label": "A",
-          "Text": "B. Dsmod"
+          "Text": "Dsadd quota"
         },
         {
           "label": "B",
-          "Text": "Active Directory Administrative Center"
+          "Text": "Dsmod"
         },
         {
           "label": "C",
-          "Text": "Dsacls"
+          "Text": "Active Directory Administrative Center"
         },
         {
           "label": "D",
-          "Text": "Dsamain"
+          "Text": "Dsacls"
         },
         {
           "label": "E",
-          "Text": "Active Directory Users and Computers"
+          "Text": "Dsamain"
         },
         {
           "label": "F",
-          "Text": "Ntdsutil"
+          "Text": "Active Directory Users and Computers"
         },
         {
           "label": "G",
+          "Text": "Ntdsutil"
+        },
+        {
+          "label": "H",
           "Text": "Group Policy Management Console"
         }
       ],
@@ -719,14 +622,10 @@
         false,
         false,
         false,
+        false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -787,12 +686,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Reference: https://mcpmag.com/articles/2015/03/05/rejoin-a-computer-from-a-domain.aspx"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -843,24 +737,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016. The computer account for Server1 is in organizational unit (OU) named OU1."
@@ -899,33 +780,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "The Set-AdComputer cmdlet modifies an Active Directory computer object. It will not allow you to add a domain user to a local Administrators group."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://technet.microsoft.com/es-es/library/hh852268(v=wps.620).aspx"
+          "text": "https://technet.microsoft.com/es-es/library/hh852268(v=wps.620).aspx"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016. The computer account for Server1 is in organizational unit (OU) named OU1."
@@ -964,33 +829,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "to add uses to the Local Administrator built In group on all the computers using Group Policy, open group policy editor and create or edit existing GPO. Go to User Configuration -> Preferences -> Control Panel Settings -> Local users and groups."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://www.ntweekly.com/2015/01/10/how-to-add-users-to-local-admin-group-using-group-policy-windows-server-2012/"
+          "text": "https://www.ntweekly.com/2015/01/10/how-to-add-users-to-local-admin-group-using-group-policy-windows-server-2012/"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016. The computer account for Server1 is in organizational unit (OU) named OU1."
@@ -1029,33 +878,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Account Lockout Policy settings encapsulates Password Policy, Account Lockout Policy, and Kerberos Policy. It will not allow you to add a domain user to a local Administrators group."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://technet.microsoft.com/pt-pt/library/cc757692(v=ws.10).aspx"
+          "text": "https://technet.microsoft.com/pt-pt/library/cc757692(v=ws.10).aspx"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016."
@@ -1095,12 +928,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -1150,12 +978,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -1201,12 +1024,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -1261,24 +1079,11 @@
         true,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain."
@@ -1326,24 +1131,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain."
@@ -1395,24 +1187,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -1455,29 +1234,81 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "The"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
+          "text": "Get-ADGroup"
         },
         {
           "variant": 1,
-          "text": "The Get-ADGroup cmdlet does not include the MemberOf property. The command above is, therefore, not valid. References: https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroup?view=win10-ps"
+          "text": "cmdlet"
+        },
+        {
+          "variant": 1,
+          "text": "does"
+        },
+        {
+          "variant": 1,
+          "text": "not"
+        },
+        {
+          "variant": 1,
+          "text": "include"
+        },
+        {
+          "variant": 1,
+          "text": "the"
+        },
+        {
+          "variant": 1,
+          "text": "MemberOf"
+        },
+        {
+          "variant": 1,
+          "text": "property."
+        },
+        {
+          "variant": 1,
+          "text": "The"
+        },
+        {
+          "variant": 1,
+          "text": "command"
+        },
+        {
+          "variant": 1,
+          "text": "above"
+        },
+        {
+          "variant": 1,
+          "text": "is,"
+        },
+        {
+          "variant": 1,
+          "text": "therefore,"
+        },
+        {
+          "variant": 1,
+          "text": "not"
+        },
+        {
+          "variant": 1,
+          "text": "valid."
+        },
+        {
+          "variant": 1,
+          "text": "References:"
+        },
+        {
+          "variant": 1,
+          "text": "https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroup?view=win10-ps"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -1520,37 +1351,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "DSGET displays the properties of a user in the directory. There are two variations of this command. The first variation displays the properties of multiple users. The second variation displays the group membership information of a single user."
-        },
-        {
-          "variant": 1,
-          "text": "To show the list of groups, recursively expanded, to which the user Mike Danseglio belongs, type: dsget user \"CN=Mike Danseglio,CN=users,dc=ms,dc=tld\" -memberof –expand"
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732535%28v%3dws.10%29"
+          "text": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732535%28v%3dws.10%29"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -1593,11 +1404,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://www.thewindowsclub.com/whoami-windows"
+          "text": "https://www.thewindowsclub.com/whoami-windows"
         }
       ]
     },
@@ -1611,10 +1422,6 @@
         {
           "variant": 1,
           "text": "Which setting will be copied when you copy the user account from Active Directory Users and Computers?"
-        },
-        {
-          "variant": 1,
-          "text": "Permission"
         }
       ],
       "choices": [
@@ -1628,48 +1435,35 @@
         },
         {
           "label": "C",
-          "Text": "Remote Desktop Services Profile"
+          "Text": "Permission"
         },
         {
           "label": "D",
-          "Text": "the User logon name attribute "
+          "Text": "Remote Desktop Services Profile"
         },
         {
           "label": "E",
-          "Text": "Published Certificates "
+          "Text": "the User logon name attribute "
         },
         {
           "label": "F",
-          "Text": "the Office attribute "
+          "Text": "Published Certificates "
         },
         {
           "label": "G",
-          "Text": "Correct Answer: A"
-        },
-        {
-          "label": "H",
-          "Text": "Explanation/Reference:"
+          "Text": "the Office attribute "
         }
       ],
-      "answer": null,
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "A user template in Active Directory can be used if you are creating users for a specific department, with exactly the same properties, and membership to the same user groups. A user template is nothing more than a disabled user account that has all these settings already in place."
-        },
-        {
-          "variant": 1,
-          "text": "References: www.rebeladmin.com/2014/07/create-users-with-user-templates-in-ad/"
-        }
-      ]
+      "answer": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "explanation": null
     },
     {
       "variant": 1,
@@ -1725,12 +1519,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -1802,14 +1591,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://www.itprotoday.com/active-directory/delegating-privileges-active-directory"
         }
       ]
@@ -1863,11 +1644,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: http://www.rebeladmin.com/2014/07/create-users-with-user-templates-in-ad/"
+          "text": "http://www.rebeladmin.com/2014/07/create-users-with-user-templates-in-ad/"
         }
       ]
     },
@@ -1911,31 +1692,18 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
         {
           "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
-        {
-          "variant": 1,
           "text": "Your network contains the Active Directory forests and domains shown in the following table:"
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image4.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image4.jpg"
         },
         {
           "variant": 1,
@@ -1975,11 +1743,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
+          "text": "https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
         }
       ]
     },
@@ -1988,19 +1756,11 @@
       "question": [
         {
           "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
-        {
-          "variant": 1,
           "text": "Your network contains the Active Directory forests and domains shown in the following table:"
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image4.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image4.jpg"
         },
         {
           "variant": 1,
@@ -2040,11 +1800,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
+          "text": "https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
         }
       ]
     },
@@ -2053,19 +1813,11 @@
       "question": [
         {
           "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
-        {
-          "variant": 1,
           "text": "Your network contains the Active Directory forests and domains shown in the following table. "
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image5.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image5.jpg"
         },
         {
           "variant": 1,
@@ -2097,15 +1849,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
+          "text": "https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-serveroperators"
         }
       ]
     },
@@ -2171,33 +1919,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "Reference:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "A domain local group can have a universal group as a member.  A universal group can have users or global groups from any domain in the forest as a member. To adhere to Microsoft best practice, we should add the Fabrikam.com users to a global group in the Fabrikam.com domain.  Add the global group to a universal group.  Convert Group1 to a domain local group and add the universal group to Group1."
-        },
-        {
-          "variant": 1,
-          "text": "Reference: https://www.netwrix.com/active_directory_group_management.html"
+          "text": "https://www.netwrix.com/active_directory_group_management.html"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com."
@@ -2232,33 +1964,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "You need to use the Schema snap-in to find the schema master. The Schema snap-in is not installed by default but can be installed by using Schmmgmt.dll."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://www.petri.com/determining_fsmo_role_holders"
+          "text": "https://www.petri.com/determining_fsmo_role_holders"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com."
@@ -2293,29 +2009,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "This command gets a global catalog in the current forest using Discovery."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-addomaincontroller?view=win10-ps"
+          "text": "https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-addomaincontroller?view=win10-ps"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
         {
           "variant": 1,
           "text": "You work for a company named Contoso, Ltd."
@@ -2330,7 +2034,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image2.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image2.jpg"
         },
         {
           "variant": 1,
@@ -2392,11 +2096,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://www.dtonias.com/access-denied-delete-move-ou-active-directory/"
+          "text": "https://www.dtonias.com/access-denied-delete-move-ou-active-directory/"
         }
       ]
     },
@@ -2451,11 +2155,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/powershell/module/addsadministration/set-adaccountexpiration?view=win10-ps"
+          "text": "https://docs.microsoft.com/en-us/powershell/module/addsadministration/set-adaccountexpiration?view=win10-ps"
         }
       ]
     },
@@ -2506,21 +2210,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
         {
           "variant": 1,
           "text": "You work for a company named Contoso, Ltd."
@@ -2535,7 +2235,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image2.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image2.jpg"
         },
         {
           "variant": 1,
@@ -2591,14 +2291,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/back-up-files-and-directories"
@@ -2659,24 +2351,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. You have an organizational unit (OU) named LondonUsers that contains 10,000 users. You need to modify the office attribute of all the users in the LondonUsers OU. "
@@ -2704,24 +2383,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: References: https://webactivedirectory.com/2011/07/18/simple-powershell-script-to-bulk-update-or-modify-active-directory-user-attributes/"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. You have an organizational unit (OU) named LondonUsers that contains 10,000 users. You need to modify the office attribute of all the users in the LondonUsers OU. "
@@ -2752,15 +2418,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References: https://webactivedirectory.com/2011/07/18/simple-powershell-script-to-bulk-update-or-modify-active-directory-user-attributes/"
+          "text": "https://webactivedirectory.com/2011/07/18/simple-powershell-script-to-bulk-update-or-modify-active-directory-user-attributes/"
         }
       ]
     },
@@ -2804,12 +2466,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: References: https://www.grouppolicy.biz/2010/01/how-to-use-group-policy-preferences-to-secure-local-administrator-groups/"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -2855,24 +2512,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. You have an organizational unit (OU) named LondonUsers that contains 10,000 users. You need to modify the office attribute of all the users in the LondonUsers OU. "
@@ -2903,21 +2547,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-adobject?view=winserver2012-ps"
+          "text": "https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-adobject?view=winserver2012-ps"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -2978,29 +2618,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Dsadd quota adds a quota specification to a directory partition. A quota specification determines the maximum number of directory objects that a given security principal can own in a specified directory partition."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://blogs.technet.microsoft.com/activedirectoryua/2009/03/19/active-directory-quotas/"
+          "text": "https://blogs.technet.microsoft.com/activedirectoryua/2009/03/19/active-directory-quotas/"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest functional level is Windows Server 2012 R2."
@@ -3061,19 +2689,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "You can restore objects from the Active Directory Recycle Bin by using Active Directory Administrative Center."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://blogs.technet.microsoft.com/canitpro/2014/07/28/step-by-step-restoring-a-deleted-object-via-active-directory-recycle-bin/"
+          "text": "https://blogs.technet.microsoft.com/canitpro/2014/07/28/step-by-step-restoring-a-deleted-object-via-active-directory-recycle-bin/"
         }
       ]
     },
@@ -3121,24 +2741,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You deploy a new Active Directory forest."
@@ -3170,20 +2777,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. You recently deleted 5,000 objects from the Active Directory database."
@@ -3241,24 +2839,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You deploy a new Active Directory forest."
@@ -3290,16 +2875,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -3353,24 +2929,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -3432,12 +2995,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -3452,7 +3010,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image6.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image6.jpg"
         },
         {
           "variant": 1,
@@ -3495,16 +3053,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -3572,14 +3121,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Reference:"
-        },
-        {
-          "variant": 1,
           "text": "https://blogs.technet.microsoft.com/tristank/2006/05/08/3-simple-rules-to-kerberos-authenticationdelegation-spns/"
         }
       ]
@@ -3587,14 +3128,6 @@
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016."
@@ -3608,16 +3141,16 @@
           "text": "Server1 has the following local Group Policies:"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer Policy"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer\\User1 Policy"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer\\Administrators Policy"
         },
         {
           "variant": 1,
@@ -3646,24 +3179,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a server named Server1 that runs Windows Server 2016."
@@ -3677,16 +3197,16 @@
           "text": "Server1 has the following local Group Policies:"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer Policy"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer\\User1 Policy"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Local Computer\\Administrators Policy"
         },
         {
           "variant": 1,
@@ -3715,24 +3235,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest. The forest contains a domain named contoso.com. The domain contains three domain controllers."
@@ -3768,24 +3275,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest. The forest contains a domain named contoso.com. The domain contains three domain controllers."
@@ -3821,24 +3315,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest. The forest contains a domain named contoso.com. The domain contains three domain controllers."
@@ -3874,28 +3355,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest contains 10 domains. The root domain contains a global catalog server named DC1."
@@ -3934,33 +3398,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "You need to run ntdsutil.exe with the ‘compact to’ option."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://theitbros.com/active-directory-database-compact-defrag/"
+          "text": "https://theitbros.com/active-directory-database-compact-defrag/"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest contains 10 domains."
@@ -4003,11 +3451,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://theitbros.com/active-directory-database-compact-defrag/"
+          "text": "https://theitbros.com/active-directory-database-compact-defrag/"
         }
       ]
     },
@@ -4055,16 +3503,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -4082,16 +3521,16 @@
           "text": "You need to ensure that all the user passwords in the domain contain at least three of the following types of characters:"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Numbers"
         },
         {
           "variant": 1,
-          "text": " Lowercase letters  Special characters"
+          "text": "Uppercase letters"
+        },
+        {
+          "variant": 1,
+          "text": "Lowercase letters\nSpecial characters"
         },
         {
           "variant": 1,
@@ -4122,12 +3561,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -4173,24 +3607,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains two domain controllers named DC1 and DC2."
@@ -4222,32 +3643,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "You would need to use the -Force parameter because the server that held the role (DC1) if offline."
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains two domain controllers named DC1 and DC2."
@@ -4279,12 +3679,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -4333,23 +3728,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "To list the user and computer accounts for the passwords that are cached on the RODC, run the following command:"
-        },
-        {
-          "variant": 1,
-          "text": "repadmin /prp view <read-only domain controller> reveal"
-        },
-        {
-          "variant": 1,
-          "text": "References https://support.microsoft.com/en-za/help/2028962/the-active-directory-users-and-computers-mmc-snap-in-does-not-list-all"
+          "text": "https://support.microsoft.com/en-za/help/2028962/the-active-directory-users-and-computers-mmc-snap-in-does-not-list-all"
         }
       ]
     },
@@ -4397,12 +3780,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -4451,25 +3829,21 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: http://techgenix.com/active-directory-trusts/ https://www.rootusers.com/how-to-join-centos-linux-to-an-active-directory-domain/"
+          "text": "http://techgenix.com/active-directory-trusts/"
+        },
+        {
+          "variant": 1,
+          "text": "https://www.rootusers.com/how-to-join-centos-linux-to-an-active-directory-domain/"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -4505,24 +3879,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -4558,28 +3919,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -4615,24 +3959,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com."
@@ -4676,24 +4007,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You deploy a new Active Directory forest."
@@ -4725,12 +4043,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -4741,7 +4054,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image7.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image7.jpg"
         },
         {
           "variant": 1,
@@ -4788,20 +4101,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a domain controller named Server1."
@@ -4866,19 +4170,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Dsamain.exe, allows an ntds.dit file to be mounted and exposed as an LDAP server, which means you can use such familiar tools as ADSIEdit, LDP.exe, and Active Directory Users and Computers to interact with a mounted database."
-        },
-        {
-          "variant": 1,
-          "text": "References: http://www.itprotoday.com/windows-8/using-active-directory-snapshots-and-dsamain-tool"
+          "text": "http://www.itprotoday.com/windows-8/using-active-directory-snapshots-and-dsamain-tool"
         }
       ]
     },
@@ -4926,16 +4222,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -4989,31 +4276,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
+          "text": "http://www.itprotoday.com/management-mobility/what-group-policy-creator-owners-group"
         },
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "The Group Policy Creator Owners group lets its members create new GPOs."
-        },
-        {
-          "variant": 1,
-          "text": "You can delegate the ability for users to be given the ability to link GPOs to an OU or domain via the Delegation tab of the OU/domain/site within the GPMC."
-        },
-        {
-          "variant": 1,
-          "text": "References: "
-        },
-        {
-          "variant": 1,
-          "text": "http://www.itprotoday.com/management-mobility/what-group-policy-creator-owners-group http://www.itprotoday.com/management-mobility/how-do-i-delegate-permissions-someone-edit-gpo"
+          "text": "http://www.itprotoday.com/management-mobility/how-do-i-delegate-permissions-someone-edit-gpo"
         }
       ]
     },
@@ -5069,12 +4336,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5101,7 +4363,7 @@
         },
         {
           "variant": 1,
-          "text": "D. Create a Config.xml file and add a software installation package to the Computer Configuration node of GPO1."
+          "text": " "
         }
       ],
       "choices": [
@@ -5111,19 +4373,24 @@
         },
         {
           "label": "B",
-          "Text": "Create a Config.xml file and add a software installation package to the User Configuration node of GPO1. C. Create a Config.zap file and add a software installation package to the User Configuration node of GPO1."
+          "Text": "Create a Config.xml file and add a software installation package to the User Configuration node of GPO1. "
+        },
+        {
+          "label": "C",
+          "Text": "C. Create a Config.zap file and add a software installation package to the User Configuration node of GPO1."
+        },
+        {
+          "label": "D",
+          "Text": "Create a Config.xml file and add a software installation package to the Computer Configuration node of GPO1."
         }
       ],
       "answer": [
         false,
+        false,
+        true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5138,7 +4405,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image8.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image8.jpg"
         },
         {
           "variant": 1,
@@ -5174,14 +4441,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Reference:"
-        },
         {
           "variant": 1,
           "text": "https://blogs.technet.microsoft.com/musings_of_a_technical_tam/2012/02/15/group-policy-basics-part-2-understanding-which-gpos-to-apply/"
@@ -5240,24 +4499,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains 5,000 user accounts."
@@ -5319,20 +4565,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains 5,000 user accounts."
@@ -5394,24 +4631,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same or similar answer choices. An answer choice may be correct for more than one question in the series. Each question is independent of the other questions in this series. Information and details provided in a question apply only to that question."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains 5,000 user accounts."
@@ -5473,24 +4697,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
-        {
-          "variant": 1,
-          "text": "Start of repeated scenario."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a single site named Site1. All computers are in Site1."
@@ -5501,7 +4712,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image9.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image9.jpg"
         },
         {
           "variant": 1,
@@ -5509,11 +4720,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image10.jpg"
-        },
-        {
-          "variant": 1,
-          "text": "End of repeated scenario."
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image10.jpg"
         },
         {
           "variant": 1,
@@ -5548,24 +4755,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
-        {
-          "variant": 1,
-          "text": "Start of repeated scenario."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a single site named Site1. All computers are in Site1."
@@ -5576,7 +4770,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image11.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image11.jpg"
         },
         {
           "variant": 1,
@@ -5584,11 +4778,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image10.jpg"
-        },
-        {
-          "variant": 1,
-          "text": "End of repeated scenario."
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image10.jpg"
         },
         {
           "variant": 1,
@@ -5623,12 +4813,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5674,12 +4859,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5721,12 +4901,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5788,12 +4963,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -5846,23 +5016,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "The Set-IpamConfiguration cmdlet modifies the configuration for the computer that runs the IPAM server."
-        },
-        {
-          "variant": 1,
-          "text": "The -GpoPrefix<String> parameter specifies the unique Group Policy object (GPO) prefix name that IPAM uses to create the group policy objects. Use this parameter only when the value of the ProvisioningMethod parameter is set to Automatic."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/powershell/module/ipamserver/set-ipamconfiguration?view=win10-ps"
+          "text": "https://docs.microsoft.com/en-us/powershell/module/ipamserver/set-ipamconfiguration?view=win10-ps"
         }
       ]
     },
@@ -5879,7 +5037,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image12.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image12.jpg"
         },
         {
           "variant": 1,
@@ -5910,24 +5068,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. All the accounts of the users in the sales department are in an organizational unit (OU) named SalesOU."
@@ -5963,24 +5108,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. All the accounts of the users in the sales department are in an organizational unit (OU) named SalesOU."
@@ -6016,24 +5148,11 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. All the accounts of the users in the sales department are in an organizational unit (OU) named SalesOU."
@@ -6069,24 +5188,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a user named User1, a group named Group1, and an organizational unit (OU) named OU1."
@@ -6121,33 +5227,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "The Group Policy Creator Owners group also has no permission to link GPOs to a container such as a domain or OU; that permission still must be manually given."
-        },
-        {
-          "variant": 1,
-          "text": "References: http://www.itprotoday.com/management-mobility/what-group-policy-creator-owners-group"
+          "text": "http://www.itprotoday.com/management-mobility/what-group-policy-creator-owners-group"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a user named User1, a group named Group1, and an organizational unit (OU) named OU1."
@@ -6179,24 +5269,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a username User1, a group named Group1, and an organizational unit (OU) named OU1."
@@ -6228,24 +5305,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a user named User1, a group named Group1, and an organizational unit (OU) named OU1."
@@ -6277,16 +5341,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -6336,16 +5391,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -6399,12 +5445,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -6450,16 +5491,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -6509,12 +5541,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -6569,24 +5596,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
-        {
-          "variant": 1,
-          "text": "Start of repeated scenario."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory domain named contoso.com. The domain contains a single site named Site1. All computers are in Site1."
@@ -6597,7 +5611,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image11.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image11.jpg"
         },
         {
           "variant": 1,
@@ -6605,11 +5619,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image10.jpg"
-        },
-        {
-          "variant": 1,
-          "text": "End of repeated scenario."
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image10.jpg"
         },
         {
           "variant": 1,
@@ -6647,15 +5657,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "In Replace Mode, the user's list of GPOs is not gathered. Only the list of GPOs based on the computer object is used."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://support.microsoft.com/en-us/help/231287/loopback-processing-of-group-policy"
+          "text": "https://support.microsoft.com/en-us/help/231287/loopback-processing-of-group-policy"
         }
       ]
     },
@@ -6706,19 +5712,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "In Windows Server 2008 Microsoft introduced a Group Policy extension, named Group Policy Preferences (GPP). GPP that includes registry settings, allows you to add, remove or modify key values."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://theitbros.com/add-modify-and-delete-registry-keys-using-group-policy/"
+          "text": "https://theitbros.com/add-modify-and-delete-registry-keys-using-group-policy/"
         }
       ]
     },
@@ -6766,24 +5764,11 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that use the same scenario. For your convenience, the scenario is repeated in each question. Each question presents a different goal and answer choices, but the text of the scenario is exactly the same in each question in this series."
-        },
         {
           "variant": 1,
           "text": " "
@@ -6798,7 +5783,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image13.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image13.jpg"
         },
         {
           "variant": 1,
@@ -6806,7 +5791,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image14.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image14.jpg"
         },
         {
           "variant": 1,
@@ -6841,12 +5826,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -6889,14 +5869,6 @@
         true
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://www.windowscentral.com/how-apply-local-group-policy-settings-specific-users-windows-10"
@@ -6961,12 +5933,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7020,11 +5987,15 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733022(v=ws.11) https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753566%28v%3dws.10%29"
+          "text": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733022(v=ws.11)"
+        },
+        {
+          "variant": 1,
+          "text": "https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753566%28v%3dws.10%29"
         }
       ]
     },
@@ -7072,16 +6043,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7096,7 +6058,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image15.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image15.jpg"
         },
         {
           "variant": 1,
@@ -7138,26 +6100,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "If the GPO link is enabled, the settings of the GPO are applied when Group Policy is processed for the site, domain or OU."
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://docs.microsoft.com/en-us/powershell/module/grouppolicy/set-gplink?view=win10-ps"
         }
       ]
@@ -7171,7 +6113,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image16.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image16.jpg"
         },
         {
           "variant": 1,
@@ -7191,7 +6133,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image17.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image17.jpg"
         }
       ],
       "choices": [
@@ -7218,12 +6160,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7268,15 +6205,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
+          "text": "Reference:"
         },
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Reference: https://docs.microsoft.com/en-us/powershell/module/grouppolicy/invoke-gpupdate?view=win10-ps"
+          "text": "https://docs.microsoft.com/en-us/powershell/module/grouppolicy/invoke-gpupdate?view=win10-ps"
         }
       ]
     },
@@ -7293,7 +6226,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image18.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image18.jpg"
         },
         {
           "variant": 1,
@@ -7328,12 +6261,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7348,7 +6276,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image19.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image19.jpg"
         },
         {
           "variant": 1,
@@ -7383,16 +6311,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7407,7 +6326,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image20.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image20.jpg"
         },
         {
           "variant": 1,
@@ -7442,12 +6361,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7462,7 +6376,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image21.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image21.jpg"
         },
         {
           "variant": 1,
@@ -7498,14 +6412,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://docs.microsoft.com/en-us/archive/blogs/musings_of_a_technical_tam/group-policy-basics-part-2-understanding-which-gpos-to-apply"
@@ -7559,14 +6465,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://social.technet.microsoft.com/Forums/ie/en-US/e9d3a8d3-5301-4961-96be-99f586c6fc1c/using-ad-to-allow-a-user-to-startstop-a-service?forum=winserverDS"
         }
       ]
@@ -7612,14 +6510,6 @@
         true
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/gpupdate"
@@ -7674,16 +6564,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7717,12 +6598,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7733,7 +6609,7 @@
         },
         {
           "variant": 1,
-          "text": "D. Certificate templates."
+          "text": " "
         }
       ],
       "choices": [
@@ -7743,19 +6619,24 @@
         },
         {
           "label": "B",
-          "Text": "CRL publication intervalC. Delta CRL publication interval"
+          "Text": "CRL publication interval"
+        },
+        {
+          "label": "C",
+          "Text": "Delta CRL publication interval"
+        },
+        {
+          "label": "D",
+          "Text": "Certificate templates."
         }
       ],
       "answer": [
         false,
+        false,
+        true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7801,12 +6682,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -7870,12 +6746,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7921,12 +6792,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -7976,12 +6842,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8039,12 +6900,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8090,20 +6946,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "You can’t create templates or configure auto-enrollment on a standalone CA."
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -8161,23 +7004,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Once the OCSP service is configured, we need to configure the OCSP Response Signing template. This process includes adding an Authority Information Access (AIA) extension and then issuing a new certificate template."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://www.poweradmin.com/blog/deploying-active-directory-certificate-services-and-online-responder/"
+          "text": "https://www.poweradmin.com/blog/deploying-active-directory-certificate-services-and-online-responder/"
         }
       ]
     },
@@ -8199,51 +7030,49 @@
         {
           "variant": 1,
           "text": "Which two actions should you perform? Each correct answer presents part of the solution."
-        },
-        {
-          "variant": 1,
-          "text": "A. From the Certification Authority console, modify the Auditing settings for the CA. B. From the Certification Authority console, modify the Security settings for the CA."
         }
       ],
       "choices": [
         {
           "label": "A",
-          "Text": "From Local Group Policy Editor, configure auditing for policy change."
+          "Text": "From the Certification Authority console, modify the Auditing settings for the CA."
         },
         {
           "label": "B",
-          "Text": "From the Certification Authority console, modify the Certificate Managers settings for the CA."
+          "Text": "From the Certification Authority console, modify the Security settings for the CA."
         },
         {
           "label": "C",
+          "Text": "From Local Group Policy Editor, configure auditing for policy change."
+        },
+        {
+          "label": "D",
+          "Text": "From the Certification Authority console, modify the Certificate Managers settings for the CA."
+        },
+        {
+          "label": "E",
           "Text": "From Local Group Policy Editor, configure auditing for object access."
         }
       ],
       "answer": [
         false,
         false,
+        true,
+        false,
         true
       ],
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
+          "text": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-policy-change"
         },
         {
           "variant": 1,
-          "text": "Audit policy change defines whether every incident of a change to user rights assignment policies, audit policies, or trust policies is audited."
-        },
-        {
-          "variant": 1,
-          "text": "Audit object access defines whether the event of a user accessing an object--for example, a file, folder, registry key, printer, and so forth--that has its own system access control list (SACL) specified is audited."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-policy-change https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-object-access"
+          "text": "https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-object-access"
         }
       ]
     },
@@ -8256,7 +7085,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image22.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image22.jpg"
         },
         {
           "variant": 1,
@@ -8307,14 +7136,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://www.ejbca.org/docs/Part_2__Microsoft_Certification_Authority_and_Group_Policies.html"
         }
       ]
@@ -8327,20 +7148,12 @@
           "text": "You have a certification authority (CA) named CA1. You create a certificate template named Template1 that has the following configurations:"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Minimum key size: 2048"
         },
         {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
+          "variant": 1,
+          "text": "Cryptographic provider: Microsoft Strong Cryptographic Provider \nCompatibility Settings-Certification Authority: Windows server 2012 R2 \nCompatibility Settings-Certificate recipient: Windows 8.1 /Windows Server 2012 R2"
         },
         {
           "variant": 1,
@@ -8380,10 +7193,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: References:"
-        },
         {
           "variant": 1,
           "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation"
@@ -8439,14 +7248,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://www.poweradmin.com/blog/deploying-active-directory-certificate-services-and-online-responder/"
@@ -8505,12 +7306,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 1,
@@ -8561,12 +7357,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8613,16 +7404,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: Explanation:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8656,12 +7438,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8711,24 +7488,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You have a server named Web1 that runs Windows Server 2016."
@@ -8756,12 +7520,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8803,12 +7562,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8850,15 +7604,10 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
-      "variant": 0,
+      "variant": 1,
       "question": [
         {
           "variant": 1,
@@ -8900,16 +7649,17 @@
         },
         {
           "label": "E",
-          "Text": "On external DNS name servers, create DNS entries that point to the public IP address of the Web Application Proxy. Correct Answer: CE"
+          "Text": "On external DNS name servers, create DNS entries that point to the public IP address of the Web Application Proxy. "
         }
       ],
-      "answer": null,
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "answer": [
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "explanation": null
     },
     {
       "variant": 0,
@@ -8955,12 +7705,7 @@
         true,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -9002,12 +7747,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -9061,12 +7801,7 @@
         false,
         false
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -9090,26 +7825,6 @@
         {
           "variant": 1,
           "text": "Which tool should you use to publish WebApp1?"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
-        },
-        {
-          "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image3.jpg"
         }
       ],
       "choices": [
@@ -9132,38 +7847,6 @@
         {
           "label": "E",
           "Text": "Routing and Remote Access on Server1"
-        },
-        {
-          "label": "F",
-          "Text": "On the Web Application Proxy server, in the Remote Access Management console, in the Navigation pane, click Web Application Proxy, and then in the Tasks pane, click Publish."
-        },
-        {
-          "label": "G",
-          "Text": "On the Publish New Application Wizard, on the Welcome page, click Next."
-        },
-        {
-          "label": "H",
-          "Text": "On the Preauthentication page, click Active Directory Federation Services (AD FS), and then click Next."
-        },
-        {
-          "label": "I",
-          "Text": "On the Supported Clients page, select Web and MSOFBA, and then click Next."
-        },
-        {
-          "label": "J",
-          "Text": "On the Relying Party page, in the list of relying parties select the relying party for the application that you want to publish, and then click Next."
-        },
-        {
-          "label": "K",
-          "Text": "On the Publishing Settings page, do the following, and then click Next:"
-        },
-        {
-          "label": "L",
-          "Text": "On the Confirmation page, review the settings, and then click Publish. You can copy the PowerShell command to set up additional published applications."
-        },
-        {
-          "label": "",
-          "Text": "On the Results page, make sure that the application published successfully, and then click Close."
         }
       ],
       "answer": [
@@ -9174,22 +7857,6 @@
         false
       ],
       "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "To publish a claims-based application"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
         {
           "variant": 1,
           "text": "https://docs.microsoft.com/en-us/windows-server/remote/remote-access/web-application-proxy/publishing-applications-using-ad-fs-preauthentication"
@@ -9248,24 +7915,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference: References: https://winintro.ru/rms_help.en/html/59c802d0-3982-432c-b06f-3e148dca0166.htm"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You have a server named Web1 that runs Windows Server 2016."
@@ -9297,24 +7951,11 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You have a server named Web1 that runs Windows Server 2016."
@@ -9346,12 +7987,7 @@
         false,
         true
       ],
-      "explanation": [
-        {
-          "variant": 1,
-          "text": "Explanation/Reference:"
-        }
-      ]
+      "explanation": null
     },
     {
       "variant": 0,
@@ -9396,14 +8032,6 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://docs.microsoft.com/en-us/powershell/module/adfs/add-adfswebapiapplication?view=win10-ps"
         }
       ]
@@ -9417,7 +8045,7 @@
         },
         {
           "variant": 0,
-          "text": "https://files.doorhetgeluid.nl/images/70-742/image23.jpg"
+          "text": "https://start.opensourceexams.org/exams/70-742/images/image23.jpg"
         },
         {
           "variant": 1,
@@ -9459,11 +8087,19 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://www.techsupportpk.com/2016/12/deploy-web-application-proxy-windows-server-2016.html https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-web-application-proxy-for-a-hybrid-environment https://docs.microsoft.com/en-us/windows-server/storage/work-folders/deploy-work-folders-adfs-step4"
+          "text": "https://www.techsupportpk.com/2016/12/deploy-web-application-proxy-windows-server-2016.html"
+        },
+        {
+          "variant": 1,
+          "text": "https://docs.microsoft.com/en-us/sharepoint/hybrid/configure-web-application-proxy-for-a-hybrid-environment"
+        },
+        {
+          "variant": 1,
+          "text": "https://docs.microsoft.com/en-us/windows-server/storage/work-folders/deploy-work-folders-adfs-step4"
         }
       ]
     },
@@ -9510,25 +8146,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "References: https://forsenergy.com/en-us/rms_help/html/9a944ab7-f0d9-4224-97c6-b2543f537827.htm"
+          "text": "https://forsenergy.com/en-us/rms_help/html/9a944ab7-f0d9-4224-97c6-b2543f537827.htm"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "You network contains an Active Directory forest named contoso.com. The forest contains an Active Directory Rights Management Services (AD RMS) deployment."
@@ -9567,41 +8195,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "By default, an AD RMS Licensing Server can issue use licenses for only content where it originally issued the publishing license. In some situations, this may not be acceptable. In order to specify a cluster that is allowed to issue use licenses for content protected by a different cluster, the first cluster must be defined as a trusted publishing domain. If content was published by another certification cluster either in your organization, for example, a subsidiary organization in another forest, or in a separate organization, your AD RMS cluster can grant use licenses to users for this content by configuring a Trusted Publishing Domain on your AD RMS cluster. By adding a Trusted Publishing Domain, you set up a trust relationship between your AD RMS cluster and the other certification cluster by importing the Trusted Publishing Certificate of the other cluster."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://books.google.co.za/books?id=gjR-BAAAQBAJ&pg=PA397&lpg=PA397&dq=configure+a+partners+forest+as+a+trusted+publishing+domain+-+AD"
-        },
-        {
-          "variant": 1,
-          "text": "+RMS&source=bl&ots=mohQXTyW9s&sig=NJ7oFHuLYOs72o9EM-"
-        },
-        {
-          "variant": 1,
-          "text": "yQiIscUW8&hl=en&sa=X&ved=0ahUKEwjuivW24sPbAhWGRMAKHQcEB6EQ6AEIOzAD#v=onepage&q=configure%20a%20partners%20forest%20as%20a% 20trusted%20publishing%20domain%20-%20AD%20RMS&f=false"
+          "text": "https://books.google.co.za/books?id=gjR-BAAAQBAJ&pg=PA397&lpg=PA397&dq=configure+a+partners+forest+as+a+trusted+publishing+domain+-+AD"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest contains a member server named Server1 that runs Windows Server 2016. All domain controllers run Windows Server 2012 R2."
@@ -9656,37 +8260,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Device Registration requires Windows Server 2012 R2 forest schema. We can run adprep.exe to upgrade the schema."
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
-          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest contains a member server named Server1 that runs Windows Server 2016. All domain controllers run Windows Server 2012 R2."
@@ -9741,37 +8325,17 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Device Registration requires Windows Server 2012 R2 forest schema. Upgrading a domain controller will run adprep.exe to upgrade the schema as part of the upgrade process."
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
-          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/upgrade-domain-controllers-to-windows-server-2012-r2-and-windows-server-2012"
         }
       ]
     },
     {
       "variant": 0,
       "question": [
-        {
-          "variant": 1,
-          "text": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
-        },
-        {
-          "variant": 1,
-          "text": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
-        },
         {
           "variant": 1,
           "text": "Your network contains an Active Directory forest named contoso.com. The forest contains a member server named Server1 that runs Windows Server 2016. All domain controllers run Windows Server 2012 R2."
@@ -9826,19 +8390,11 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
+          "text": "References:"
         },
         {
           "variant": 1,
-          "text": "Explanation:"
-        },
-        {
-          "variant": 1,
-          "text": "Device Registration requires Windows Server 2012 R2 forest schema (not just domain schema)."
-        },
-        {
-          "variant": 1,
-          "text": "References: https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service"
+          "text": "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service"
         }
       ]
     },
@@ -9884,31 +8440,7 @@
       "explanation": [
         {
           "variant": 1,
-          "text": "Explanation/Reference:"
-        },
-        {
-          "variant": 1,
-          "text": "References:"
-        },
-        {
-          "variant": 1,
           "text": "https://books.google.co.za/books?id=G9Y5DwAAQBAJ&pg=PA385&lpg=PA385&dq=rights-protected+content+-+exclusion"
-        },
-        {
-          "variant": 1,
-          "text": "+policy&source=bl&ots=MeKgOC82dG&sig=ACfU3U1DLYH3Eud3XrtFyvVR-"
-        },
-        {
-          "variant": 1,
-          "text": "j80rY0JuA&hl=en&sa=X&ved=2ahUKEwi4vsvO1svnAhXs6eAKHb73Bb4Q6AEwBnoECAoQAQ#v=onepage&q=rights-protected%20content%20-%20exclusion% 20policy&f=false"
-        },
-        {
-          "variant": 1,
-          "text": " "
-        },
-        {
-          "variant": 1,
-          "text": " "
         }
       ]
     }
