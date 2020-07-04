@@ -19,7 +19,7 @@ let questions = [];
 let exam = [];
 
 // Change URL HERE //
-fetch(url_dev).then(res => {
+fetch(url_prod).then(res => {
     return res.json();
 
 }).then(loadedExam => {
@@ -71,7 +71,23 @@ startGame = () => {
     hud.insertAdjacentHTML('beforebegin', `<h2 class="title">${exam.title}</h2>`)
 };
 
+showAnswer = () => { // Reveals correct and incorrect answers for current question
+  var classToApply = new String
 
+  const choice_containers = document.getElementsByClassName('choice-container')
+
+  for ( let i = 0; i < choice_containers.length; i++ ) {
+
+    if (currentQuestion.answer[i] == true) {
+      classToApply = 'correct'
+    }
+    else {
+      classToApply = 'incorrect'
+    }
+
+    choice_containers[i].classList.add(classToApply)
+  }
+}
 
 
 getNewQuestion = () => {
@@ -214,6 +230,10 @@ document.addEventListener('click', function(e) {
       const submitButton = document.getElementById('submit_btn')
       submitButton.innerHTML = 'Next'
       submitButton.id = 'next_btn'
+      setTimeout(() => {
+        showAnswer()
+      }, 2000);
+
     } // End submit button
     else if (e.target && e.target.id == 'next_btn') { // Next question
       getNewQuestion();
