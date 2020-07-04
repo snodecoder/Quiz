@@ -11,6 +11,7 @@ const delayTime = 4000;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
+let acceptingNewQuestion = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -230,13 +231,16 @@ document.addEventListener('click', function(e) {
       const submitButton = document.getElementById('submit_btn')
       submitButton.innerHTML = 'Next'
       submitButton.id = 'next_btn'
+
       setTimeout(() => {
         showAnswer()
+        acceptingNewQuestion = true;
       }, 2000);
 
     } // End submit button
-    else if (e.target && e.target.id == 'next_btn') { // Next question
+    else if (e.target && e.target.id == 'next_btn' && acceptingNewQuestion == true) { // Next question
       getNewQuestion();
+      acceptingNewQuestion = false;
     }
 
 
