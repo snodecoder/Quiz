@@ -106,8 +106,10 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter}/${Max_Questions}`;
     progressBarFull.style.width = ` ${(questionCounter / Max_Questions) * 100}%`;
 
+    // Get random question from availableQuestions and remove it from availableQuestions afterwards
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
+    availableQuestions.splice(questionIndex, 1);
 
     // Map content of question to HTML structure
     currentQuestion.question.forEach(questionPart => {
